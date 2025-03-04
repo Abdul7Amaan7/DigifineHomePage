@@ -17,7 +17,7 @@ import DownloadBtn from "./Container/DownloadBtn";
 import Courses from "./Sections/Cources";
 import MyComponent from "./Container/MyComponent";
 import DownloadButton from './Container/DownloadButton';
-import YtVideo from "./Container/YTVIdeo";
+import YtVideo from "./Container/YtVIdeo";
 import LogoSliding from "./Sections/LogoSliding";
 import CardSection from "./Sections/CardSection";
 import Infrastructure from "./Sections/Infrastructure";
