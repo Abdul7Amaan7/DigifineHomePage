@@ -15,7 +15,7 @@ import CareerForm from "./Container/CareerForm";
 import LogoSlider from "./Sections/LogoSlider";
 import DownloadBtn from "./Container/DownloadBtn";
 import Courses from "./Sections/Cources";
-import MyComponent from "./Container/Mycomponent";
+import MyComponent from "./Container/MyComponent";
 import DownloadButton from './Container/DownloadButton';
 import YtVideo from "./Container/YTVIdeo";
 import LogoSliding from "./Sections/LogoSliding";
