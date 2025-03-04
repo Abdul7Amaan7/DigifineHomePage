@@ -1,0 +1,29 @@
+/* Tailwind's base styles (imported by default in Vite projects) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans; /* This applies the global font you've configured in tailwind.config.js */
+  }
+}
+
+@keyframes starAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.group:hover {
+  animation-play-state: paused;
+}
