@@ -8,7 +8,7 @@ const Infrastructure = () => {
         {/* YouTube Video on the left */}
         <iframe
           className="mb-4 lg:mb-0 flex-shrink-0"
-          width="372"
+          width="full"
           height="662"
           src="https://www.youtube.com/embed/JZh6aHfJ7xo"
           title="Digifine Academy | Best Institute for Digital Marketing Course | Infrastructure"

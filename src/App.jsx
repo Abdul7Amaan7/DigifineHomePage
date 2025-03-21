@@ -44,8 +44,7 @@ function App() {
      <MyComponent/>
      <LogoSliding/>
      <Courses />
-     <BoxCardSection  
-     cardData/>
+     <BoxCardSection/>
      <CardSection/>
      <OurVision/>
      <Infrastructure/>
