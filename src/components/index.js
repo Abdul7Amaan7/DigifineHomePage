@@ -23,6 +23,17 @@ import CardSection from "./Sections/CardSection";
 import Infrastructure from "./Sections/Infrastructure";
 import OurVision from "./Sections/OurVision";
 import FixedActionButtons from "./Container/FixedActionButtons";
+import SearchBar from "./Container/SearchBar";
+import GoalLinks from "./Container/GoalLinks";
+import HeroSection from "./Sections/HeroSection";
+import HeroImage from "./Container/HeroImage";
+import CommunityStats from "./Container/CommunityStats";
+import FieldSelector from "./Sections/FieldSelector";
+import Icon from "./Container/Icon";
+import CourseList from "./Container/CourseList";
+import BoxCardSection from "./Sections/BoxCardSection";
+import CourseFAQs from "./Sections/CourseFAQs";
+
 export {
     Header,
     Logo,
@@ -48,5 +59,16 @@ export {
     CardSection,
     Infrastructure,
     OurVision,
-    FixedActionButtons
+    FixedActionButtons,
+    SearchBar,
+    GoalLinks,
+    HeroSection,
+    HeroImage,
+    CommunityStats,
+    FieldSelector,
+    Icon,
+    CourseList,
+    BoxCardSection,
+    CourseFAQs
+
 }

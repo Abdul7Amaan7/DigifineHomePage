@@ -12,14 +12,14 @@ const logos = [
 
 const animations = [
   { name: 'animate-marquee', margin: '2rem 0' },
-  { name: 'animate-marqueereverse', margin: '2rem 0' },
+  // { name: 'animate-marqueereverse', margin: '2rem 0' },
 ];
 
 function LogoSliding() {
   return (
-    <div className="flex flex-col items-center justify-center py-8">
+    <div className="max-w-6xl mx-auto flex flex-col items-left justify-center py-8">
       {/* Title */}
-      <h1 className="mb-4 text-3xl font-semibold my-16 text-center">
+      <h1 className="mb-4 text-3xl font-semibold my-16 text-left inline-block rounded-full outline outline-1 outline-blue-500 px-4 py-2  max-w-md">  
         Get Placed With Top Brands
       </h1>
 
@@ -33,10 +33,10 @@ function LogoSliding() {
       </div>
 
       {/* Button to Book Demo Class */}
-      <button className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300">
+      {/* <button className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300">
         Book Demo Class
-      </button>
-    </div>
+      </button> */}
+    </div> 
   );
 }
 

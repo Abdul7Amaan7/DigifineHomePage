@@ -109,7 +109,7 @@ const CareerForm = ({style}) => {
   return (
     <div className={`max-w-full mx-auto p-6 bg-white rounded-lg relative ${style}`}
       style={{
-        background: 'url(/images/banner-image/digiform-01.svg) no-repeat top right',
+        // background: 'url(/images/banner-image/digiform-01.svg) no-repeat top right',
         backgroundSize: '500px',
         minHeight: '200px',
         maxWidth: '700px',

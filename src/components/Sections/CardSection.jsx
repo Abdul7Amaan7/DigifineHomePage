@@ -95,8 +95,8 @@ const CardSection = () => {
       transition={{ duration: 1 }} // Fade in the entire section
     >
       {/* Main Title */}
-      <h2 className="text-3xl font-semibold text-center mb-10 text-gray-900">
-        Explore Our Latest Cards
+      <h2 className="text-3xl font-semibold mb-10 text-gray-900 text-left inline-block rounded-full outline outline-1 outline-blue-500 px-4 py-2 max-w-3xl">
+       Steps towards success with Digifine
       </h2>
 
       {/* Card Grid with improved background and padding */}

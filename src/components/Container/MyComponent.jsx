@@ -93,10 +93,10 @@ const MyComponent = () => {
   }, []);
 
   return (
-    <div className="max-w-6xl mx-auto flex flex-col items-center p-4">
+    <div className="max-w-6xl mx-auto flex flex-col items-left p-4">
       {/* Title */}
-      <h1 className="text-3xl font-semibold my-16 text-center">
-        Why Digifine considered the Best Digital Marketing Course with Placements?
+      <h1 className="text-3xl font-semibold my-6 text-left inline-block rounded-full outline outline-1 outline-blue-500 px-4 py-2 max-w-[14rem]">
+        Why Digifine
       </h1>
 
       {/* Main Container: Flex for Equal Height */}

@@ -1,5 +1,5 @@
 import React from 'react'
-import  {Header,Banner,FixedActionButtons,LogoSlider,Courses,MyComponent,DownloadButton,YtVideo,LogoSliding,CardSection,Infrastructure,OurVision,Footer} from './components'
+import  {Header,CourseFAQs,BoxCardSection,FieldSelector,Banner,FixedActionButtons,LogoSlider,Courses,MyComponent,DownloadButton,YtVideo,LogoSliding,CardSection,Infrastructure,OurVision,HeroSection,Footer} from './components'
 
  const logos = [
    { src: './images/logo/digi-logo.svg', alt: 'Logo 1' },
@@ -10,31 +10,56 @@ import  {Header,Banner,FixedActionButtons,LogoSlider,Courses,MyComponent,Downloa
    { src: './images/logo/digi-logo.svg', alt: 'Logo 6' },
  ];
 
+ const goals = [
+  { text: 'Get a promotion' },
+  { text: 'Industry Certification'},
+  { text: 'Move to a new career path' },
+  { text: 'Study Abroad'},
+  { text: 'Free Course'},
+  { text: 'Prepare for your first job'},
+  { text: 'Ace interview skills'},
+  { text: 'Get an international degree' },
+];
+
+
+
 function App() {
   return (
     <>
     <FixedActionButtons/>
     <Header/>
-    <main>
-    <Banner
-      title="Enroll for the most Advanced Digital Marketing Course in India"
-      description={`- Digital Marketing Course with Placement Guarantee in Mumbai
-        - Basic to Advance Classroom Training Program (Mumbai)
-        - International Certificate in Strategic Management
-        - Guaranteed Internship / Placement
-        - No Cost EMI`}
-      highlightedWords={['Digital', 'Marketing']}
+    <main className="pt-20">
+      <FieldSelector />
+    <div>
+      <HeroSection
+        title="Master tomorrow's skills today."
+        subtitle="Excel with India’s top upskilling platform."
+        searchPlaceholder="Tell us what you're looking to learn"
+        goals={goals}
+        learnerCount="1,809,832"
+        imageSrc="https://d2o2utebsixu4k.cloudfront.net/1sr%20persona-d3d4f120e8b2439a99ec96449bbdb5be.webp"
+        imageAlt="Persona 1"
       />
-      <LogoSlider logos={logos} animation='animate-marquee' />
-      <Courses />
-      <MyComponent/>
+     </div>
+     <MyComponent/>
+     <LogoSliding/>
+     <Courses />
+     <BoxCardSection  
+     cardData/>
+     <CardSection/>
+     <OurVision/>
+     <Infrastructure/>
+     <CourseFAQs/>
+      {/*<LogoSlider logos={logos} animation='animate-marquee' />
+      
+      
       <DownloadButton />
       <YtVideo/>
-      <LogoSliding/>
+      
       <CardSection/>
       <DownloadButton />
-      <Infrastructure/>
-      <OurVision/>
+      
+       */}
     </main>
     <Footer/>
     </>
